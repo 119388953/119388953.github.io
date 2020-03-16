@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #000000;
+}
+
+/* Header/ Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url('header.jpeg');
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 20%;
+
+  column-gap: 40px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Emma Cosgrave</h1>
+  <p>Strategic Consultant</p>
+</div>
+
+<div class="topnav">
+  <a href="Project.html">Home</a>
+  <a href="CV.html">CV</a>
+  <a href="interests.html">Interests</a>
+  <a href="Strategic consulting.html">Strategic consulting services</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>News Feed:</h2>
+      <p> Thank you for visiting our site please use the above navagation bar to find what you are looking for any questions or feed back are greatly appreciated on Our social media sites, all are linked below</p>
+    </div>
+   
+    <div class="card">
+      <h2>Introduction:</h2>
+	  <Img src = "plane.jpeg" height = "100" width = "100">
+	  <p> I am keen traveler to find out more about my travels click on the "interests" tab in the navagation bar</p>
+	  <img src = "lgfa.jpeg" height = "100" width = "200">
+	  <p> I have great interst in playing and watching sport for more info on this click on the "interests" tab in the navagation bar</P> 
+   </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Follow me On:</h2>
+      <img src = "instagram.jpeg" height = "40" width = "40">
+	  <p> Emma.Cosgrave</p>
+	  <img src = "snapchat.jpeg" height = "30" width = "30">
+	  <p> Emma.Cos1</p>
+	  <img src = "facebook.jpeg" height = "30" width = "30">
+	  <p> Emma Cosgrave</P>
+	  
+	  <a href = "https://119388953.github.io/Project.html">Github Hosting </a>
+      </div>
+   </div>
+   </div>
+	 
+</body>
+</html>
+
+
